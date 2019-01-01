@@ -16,4 +16,8 @@
         <item>December</item>
     </string-array>
     <string name="title_activity_main2">Main2Activity</string>
+    <string name="tools">Tools</string>
+    <string name="slideshow">Slide Show</string>
+    <string name="gallery">Gallery</string>
+    <string name="title_activity_basic">BasicActivity</string>
 </resources>

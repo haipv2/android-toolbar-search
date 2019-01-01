@@ -9,17 +9,29 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Main2Activity">
+        <activity android:name=".NagivationActiviy">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-       <!-- <activity
+        <!--
+            <activity
             android:name=".Main2Activity"
             android:label="@string/title_activity_main2"
-            android:theme="@style/AppTheme"></activity>-->
+            android:theme="@style/AppTheme"></activity>
+        -->
+        <!-- A child of the main activity -->
+        <!--<activity
+            android:name=".DisplayMessageActivity"
+            android:label="@string/title_activity_display_message"
+            android:parentActivityName=".BasicActivity" >
+            &lt;!&ndash; Parent activity meta-data to support 4.0 and lower &ndash;&gt;
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BasicActivity" />
+        </activity>-->
     </application>
 
 </manifest>

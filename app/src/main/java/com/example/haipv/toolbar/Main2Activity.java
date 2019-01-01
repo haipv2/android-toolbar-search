@@ -29,19 +29,19 @@ public class Main2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
         listView = findViewById(R.id.listView);
-//        list = new ArrayList();
-//        list.add("ABCD");
-//        list.add("eee");
-//        list.add("advc");
-//        list.add("aaaaa");
-//        list.add("bbbb");
-//        list.add("ccc");
-//        list.add("eeeeccc");
-//        list.add("yyyy");
-//        adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, list);
-        adapter = new ArrayAdapter<String>(Main2Activity.this,
-                android.R.layout.simple_list_item_1,
-                getResources().getStringArray(R.array.months_array));
+        list = new ArrayList();
+        list.add("ABCD");
+        list.add("eee");
+        list.add("advc");
+        list.add("aaaaa");
+        list.add("bbbb");
+        list.add("ccc");
+        list.add("eeeeccc");
+        list.add("yyyy");
+        adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, list);
+//        adapter = new ArrayAdapter<String>(Main2Activity.this,
+//                android.R.layout.simple_list_item_1,
+//                getResources().getStringArray(R.array.months_array));
         listView.setAdapter(adapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
